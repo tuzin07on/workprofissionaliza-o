@@ -1,0 +1,118 @@
+.ebook-professor-child {
+    position: absolute;
+    top: 491px;
+    left: 25px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-gray-300);
+    box-shadow: 15px 15px 16px 15px rgba(0, 0, 0, 0.52);
+    width: 1391px;
+    height: 2524px;
+  }
+  .captulo-1-introduo {
+    margin: 0;
+    font-size: var(--font-size-11xl);
+  }
+  .desafios-enfrentados-pelos-pro {
+    margin-bottom: 0;
+  }
+  .importncia-da-carreira-de-pro {
+    margin: 0;
+    padding-left: var(--padding-8xl);
+  }
+  .recursos-adicionais {
+    margin: 0;
+  }
+  .captulo-1-introduo-container {
+    position: absolute;
+    top: 774px;
+    left: 29px;
+    display: inline-block;
+    width: 1379px;
+    height: 2359px;
+  }
+  .estratgias-comprovadas-para {
+    position: absolute;
+    top: 531px;
+    left: 40px;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-share-tech-mono);
+    display: inline-block;
+    width: 1397px;
+  }
+  .voltar {
+    position: relative;
+  }
+  .ebook-professor-item,
+  .voltar-wrapper {
+    position: absolute;
+    border-radius: var(--br-81xl);
+  }
+  .voltar-wrapper {
+    top: 3193px;
+    left: 639px;
+    background-color: var(--color-darkviolet);
+    border: 3px solid var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) var(--padding-8xl);
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    font-family: var(--font-bebas-neue);
+  }
+  .ebook-professor-item {
+    top: 91px;
+    left: calc(50% - 382px);
+    width: 764px;
+    height: 334px;
+    object-fit: cover;
+  }
+  .ebook-professor {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 3312px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inherit);
+  }
+  .btn {
+    display: inline-block;
+    padding: 4px 32px;
+    background: #9e00ff;
+    border: 3px solid rgb(255 255 255);
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 25px;
+    color: rgb(231 218 231);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-bebas-neue: "Bebas Neue";
+  --font-share-tech-mono: "Share Tech Mono";
+
+  --font-size-17xl: 36px;
+  --font-size-21xl: 40px;
+  --font-size-41xl: 60px;
+  --font-size-11xl: 30px;
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #fafafa;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-darkviolet: #9e00ff;
+
+  --br-81xl: 100px;
+}

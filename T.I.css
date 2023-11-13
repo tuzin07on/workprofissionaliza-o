@@ -1,0 +1,129 @@
+.ebook-ti-child {
+    position: absolute;
+    top: 491px;
+    left: 25px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.87);
+    box-shadow: 15px 15px 16px 15px rgba(0, 0, 0, 0.52);
+    width: 1391px;
+    height: 2524px;
+  }
+  .captulo-1-entendendo {
+    margin: 0;
+    font-size: var(--font-size-11xl);
+  }
+  .viso-geral-da {
+    margin: 0;
+    font-size: var(--font-size-6xl);
+  }
+  .histria-e-evoluo {
+    margin-bottom: 0;
+  }
+  .histria-e-evoluo-tendncias {
+    margin: 0;
+    padding-left: var(--padding-8xl);
+  }
+  .empreendedorismo-em-ti {
+    margin: 0;
+  }
+  .concluso {
+    margin: 0;
+    font-size: var(--font-size-21xl);
+  }
+  .captulo-1-entendendo-container {
+    position: absolute;
+    top: 816px;
+    left: 14px;
+    display: inline-block;
+    width: 1391px;
+    height: 2359px;
+  }
+  .evoluindo-na-carreira {
+    margin: 0;
+    font-size: 45px;
+  }
+  .evoluindo-na-carreira-container {
+    position: absolute;
+    top: 531px;
+    left: 30px;
+    font-family: var(--font-share-tech-mono);
+    display: inline-block;
+    width: 1397px;
+    font-size: var(--font-size-21xl);
+  }
+  .voltar {
+    position: relative;
+  }
+  .ebook-ti-item,
+  .voltar-wrapper {
+    position: absolute;
+    border-radius: var(--br-81xl);
+  }
+  .voltar-wrapper {
+    top: 3193px;
+    left: 638px;
+    background-color: var(--color-darkviolet);
+    border: 3px solid var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px var(--padding-8xl);
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    font-family: var(--font-bebas-neue);
+  }
+  .ebook-ti-item {
+    top: 91px;
+    left: 322px;
+    width: 796px;
+    height: 358px;
+    object-fit: cover;
+  }
+  .ebook-ti {
+    position: relative;
+    background-color: var(--color-black);
+    width: 100%;
+    height: 3312px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-inherit);
+  }
+  .btn {
+    display: inline-block;
+    padding: 4px 32px;
+    background: #9e00ff;
+    border: 3px solid rgb(255 255 255);
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 25px;
+    color: rgb(231 218 231);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-bebas-neue: "Bebas Neue";
+  --font-share-tech-mono: "Share Tech Mono";
+
+  --font-size-17xl: 36px;
+  --font-size-21xl: 40px;
+  --font-size-41xl: 60px;
+  --font-size-11xl: 30px;
+
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #fafafa;
+  --color-gray-200: rgba(255, 255, 255, 0);
+  --color-darkviolet: #9e00ff;
+
+  --br-81xl: 100px;
+}
